@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./About.scss";
-import { images } from "../../constants";
+
 import { client, urlFor } from "./../../client";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about__container">
+    <div className="about__container" id="about">
       <h2 className="head-text" style={{ paddingTop: 40, paddingBottom: 40 }}>
         what i do ?
       </h2>

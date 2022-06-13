@@ -15,7 +15,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills__container">
+    <div className="skills__container" id="skills">
       <h2 className="head-text" style={{ paddingTop: 40, paddingBottom: 40 }}>
         My Skils
       </h2>

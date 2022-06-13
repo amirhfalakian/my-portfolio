@@ -6,7 +6,7 @@ import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <div className="profile-container">
+    <div className="profile-container" id="home">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
