@@ -14,7 +14,7 @@ const Header = () => {
               <a href="https://github.com/amirhfalakian">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/">
+              <a href="https://www.linkedin.com/in/amirhossein-falakian-2bb622242/">
                 <AiFillLinkedin />
               </a>
               <a href="https://www.instagram.com/amirhfalakian/">
@@ -39,12 +39,16 @@ const Header = () => {
           </div>
           <div className="profile-options">
             <button className="btn primary-btn">
-              {""}
-              Hire Me{""}
+              <a
+                href="#contact"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Hire Me
+              </a>
             </button>
             <a
-              href="امیرحسین فلکیان_1401-3-19.pdf"
-              download="امیرحسین فلکیان_1401-3-19.pdf "
+              href="امیرحسین فلکیان_1401-4-24.pdf"
+              download="امیرحسین فلکیان_1401-4-24.pdf"
             >
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
